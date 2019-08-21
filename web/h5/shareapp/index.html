@@ -1,0 +1,282 @@
+<html>
+ <head>
+  <script>!function(e,t){function n(){var e,t=d.clientWidth;t>750&&(t=750),e=t/10,d.style.fontSize=e+"px"}var i,o,d=e.documentElement,a=e.querySelector('meta[name="viewport"]'),r="width=device-width,initial-scale=1,maximum-scale=1.0,user-scalable=no";a?a.setAttribute("content",r):((a=e.createElement("meta")).setAttribute("name","viewport"),a.setAttribute("content",r),d.firstElementChild?d.firstElementChild.appendChild(a):((o=e.createElement("div")).appendChild(a),e.write(o.innerHTML))),n(),t.addEventListener("resize",function(){clearTimeout(i),i=setTimeout(n,300)},!1),t.addEventListener("pageshow",function(e){e.persisted&&(clearTimeout(i),i=setTimeout(n,300))},!1),"complete"===e.readyState?e.body.style.fontSize="16px":e.addEventListener("DOMContentLoaded",function(){e.body.style.fontSize="16px"},!1)}(document,window)
+</script>
+
+<style type="text/css">
+  
+  /* page */
+body {
+  background: -webkit-linear-gradient(316deg, #ffe1d7 0%, #f9b1a2 100%);
+  background: linear-gradient(134deg, #ffe1d7 0%, #f9b1a2 100%); }
+
+.horizontally_center, .app .goods_content .title, .app .goods_content .progress_img {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%); }
+
+.app {
+  position: relative;
+  padding-top: 1.6rem; }
+  .app .top_bg {
+    width: 10rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; }
+  .app .rule_btn {
+    width: 1.14667rem;
+    position: absolute;
+    top: 0;
+    right: 0.18667rem; }
+  .app .banner {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center; }
+    .app .banner .avatar {
+      width: 0.69333rem;
+      height: 0.69333rem;
+      border-radius: 50%;
+      position: relative;
+      border: 1px solid #ffffff; }
+    .app .banner .name {
+      margin-left: 0.21333rem;
+      font-size: 0.53333rem;
+      font-family: PingFangSC-Regular;
+      color: #5c1111;
+      line-height: 0.72rem;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+              align-items: center; }
+      .app .banner .name .tag {
+        width: 0.96rem;
+        height: 0.53333rem;
+        background: #fe344c;
+        border-radius: 0.26667rem;
+        font-size: 0.34667rem;
+        color: #ffffff;
+        line-height: 0.53333rem;
+        margin-left: 0.02667rem;
+        position: relative;
+        font-family: PingFangSC-Medium;
+        font-weight: 500;
+        text-align: center; }
+  .app .bottom_bg {
+    width: 10rem;
+    height: 9.04rem;
+    background: url(../image/bottom_bg.png) no-repeat;
+    background-size: cover;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: -1; }
+  .app .redBag {
+    width: 9.49333rem;
+    height: 10.10667rem;
+    background: url(../image/redBag_bg.png) no-repeat;
+    background-size: 100%;
+    margin-top: 0.61333rem;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center; }
+    .app .redBag p {
+      font-size: 0.50667rem;
+      font-family: PingFangSC-Medium;
+      font-weight: 500;
+      color: #641010;
+      line-height: 0.69333rem;
+      margin-top: 0.90667rem; }
+    .app .redBag .money {
+      font-size: 1.65333rem;
+      font-family: DINAlternate-Bold;
+      font-weight: bold;
+      color: #fd4f4b;
+      line-height: 1.92rem;
+      margin-top: 0.29333rem; }
+      .app .redBag .money span {
+        font-size: 0.50667rem; }
+      .app .redBag .money::after {
+        content: '\53EF\63D0\73B0';
+        position: absolute;
+        width: 1.36rem;
+        height: 0.61333rem;
+        background: #FF3408;
+        line-height: 0.61333rem;
+        text-align: center;
+        border-radius: 0.93333rem 0.93333rem 0.93333rem 0.02667rem;
+        font-size: 0.34667rem;
+        color: #ffffff;
+        font-family: PingFangSC-Medium;
+        font-weight: 500; }
+    .app .redBag .old_user {
+      font-family: PingFangSC-Medium;
+ 
+      color: #641010;
+    
+   
+      text-align: center;
+      padding-top: 0.9rem; }
+    .app .redBag .btn {
+      width: 6.8rem;
+      height: 1.65333rem;
+      background: url(../image/btn.png) no-repeat;
+      background-size: 100%;
+      position: absolute;
+      bottom: 0.6rem;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%);
+      line-height: 1.2rem;
+      text-align: center;
+      color: #ED1B13;
+      font-size: 0.61333rem;
+      font-family: PingFangSC-Medium;
+      font-weight: 500; }
+      
+ .head-right{
+  width: 3.5rem;
+  height: 0.7rem;
+  border-radius: 1.25rem;
+  background-color:#fff;
+  font-size: 12px;
+  text-align: center;
+  line-height: 0.7rem;
+  overflow: hidden;
+  color: #000;
+  margin-left: 25px;
+ 
+  
+}
+
+ .head-right.head-btn{
+  width: 2rem;
+  height: 1.25rem;
+  background: red;
+  color: #fff;
+}
+</style>
+
+
+ 
+  <title>卷米-即省钱,又赚钱</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta content="email=no" name="format-detection" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+ 
+  <script type="text/javascript" charset="UTF-8" src="//res.cdn.openinstall.io/openinstall.js"></script>
+ </head>
+ <body> 
+ 
+  <div id="react-html-container"> 
+   <div class="app" data-reactroot="">
+    <img class="top_bg" src="../image/banner_bg1.png" alt="" />
+   
+    <div class="banner">
+     <img class="avatar" src="../image/list_withdrawshow2.jpg" alt="" />
+     <div class="name">
+      好友
+      <div class="tag">
+       推荐
+      </div>
+     </div>
+    </div>
+    <div class="redBag">
+     <div class="old_user">
+      <span>下载卷米APP最高领取红包 </span>
+      <br />  
+      <span style=" font-size: 45px; font-weight:bold;color: red;"> 30.00元</span>
+
+        <div class="head-right flex flex-pack-justify" >
+              <span class="flex-1 oneline">邀请码：<i id="d_yaqma" class="d_yaqma">X</i></span>
+             
+        </div>
+
+     </div>
+     <div class="btn"  id="downloadButton"  >
+      下载APP领取红包
+     </div>
+    </div>
+    <div class="bottom_bg"></div>
+   </div> 
+  </div> 
+ <script type="text/javascript">
+   
+   function GetParam(url, id) {
+              url = url+ "";
+              regstr = "/(\\?|\\&)" + id + "=([^\\&]+)/";
+              reg = eval(regstr);//eval可以将 regstr字符串转换为 正则表达式
+              result = url.match(reg);//匹配的结果是：result[0]=?sid=22 result[1]=sid result[2]=22。所以下面我们返回result[2]
+
+              if (result && result[2]) {
+                  return result[2];
+              }
+        }
+        window.onload=function(){
+           var yqm= GetParam(window.location.href,'yqm');
+            var el_yqm = document.getElementById("d_yaqma"); 
+ 
+            el_yqm.innerText=yqm;
+     
+}
+
+ 
+ </script>
+
+ <script type="text/javascript">
+    //openinstall初始化时将与openinstall服务器交互，应尽可能早的调用
+    /*web页面向app传递的json数据(json string/js Object)，应用被拉起或是首次安装时，通过相应的android/ios api可以获取此数据*/
+    var data = OpenInstall.parseUrlParams();//openinstall.js中提供的工具函数，解析url中的所有查询参数
+    new OpenInstall({
+        /*appKey必选参数，openinstall平台为每个应用分配的ID*/
+        appKey : "njdewv",
+        /*可选参数，自定义android平台的apk下载文件名；个别andriod浏览器下载时，中文文件名显示乱码，请慎用中文文件名！*/
+        //apkFileName : 'com.fm.openinstalldemo-v2.2.0.apk',
+        /*可选参数，是否优先考虑拉起app，以牺牲下载体验为代价*/
+        //preferWakeup:true,
+        /*自定义遮罩的html*/
+        //mask:function(){
+        //  return "<div id='openinstall_shadow' style='position:fixed;left:0;top:0;background:rgba(0,255,0,0.5);filter:alpha(opacity=50);width:100%;height:100%;z-index:10000;'></div>"
+        //},
+        /*openinstall初始化完成的回调函数，可选*/
+        onready : function() {
+            var m = this, button = document.getElementById("downloadButton");
+            button.style.visibility = "visible";
+
+            /*在app已安装的情况尝试拉起app*/
+            m.schemeWakeup();
+            /*用户点击某个按钮时(假定按钮id为downloadButton)，安装app*/
+            button.onclick = function() {
+                m.wakeupOrInstall();
+                return false;
+            }
+        }
+    }, data);
+
+</script>
+
+ </body>
+</html>

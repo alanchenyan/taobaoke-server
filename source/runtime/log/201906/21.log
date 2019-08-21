@@ -1,0 +1,54 @@
+---------------------------------------------------------------
+[ 2019-06-21T06:37:09+08:00 ] 127.0.0.1 POST /jmapp/web/index.php/api/tkorder/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.064000s ] mysql:host=47.110.83.209;port=3306;dbname=juanmiDB;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `juanmi_order` [ RunTime:0.042000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `juanmi_order` WHERE  `goods_order` = '498343265603844140' LIMIT 1 [ RunTime:0.042000s ]
+[ sql ] [ SQL ] INSERT INTO `juanmi_order` (`type` , `goods_order` , `goods_number` , `order_status` , `title` , `goods_id` , `price` , `shop_type` , `pay_price` , `settlement_price` , `commission` , `commission_rate` , `terminal_type` , `create_time` , `adzone_id` , `adzone_name` , `relation_id` , `special_id` , `earning_time`) VALUES (0 , '498343265603844140' , 1 , 12 , '【4卷装】蒙丽丝一次性洗脸巾女纯棉柔洁面巾纸美容专用巾卷筒式' , '577809969991' , 69 , '天猫' , 25.7 , 0 , 3.86 , '15.00 %' , '无线' , 1561070129 , '106395750448' , '渠道+会员-推广位' , '' , '' , 0) [ RunTime:0.044000s ]
+---------------------------------------------------------------
+[ 2019-06-21T11:27:56+08:00 ] 127.0.0.1 POST /jmapp/web/index.php/api/tkorder/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.071000s ] mysql:host=47.110.83.209;port=3306;dbname=juanmiDB;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `juanmi_order` [ RunTime:0.049000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `juanmi_order` WHERE  `goods_order` = '482147011156927028' LIMIT 1 [ RunTime:0.047000s ]
+[ sql ] [ SQL ] UPDATE `juanmi_order`  SET `type`=0,`goods_order`='482147011156927028',`goods_number`=1,`order_status`=3,`title`='纯棉一次性洗脸巾女无菌擦脸斤专用卸妆棉柔洁面巾纸家用卷筒式',`goods_id`='571150105105',`price`=29,`shop_type`='天猫',`pay_price`=11.8,`settlement_price`=11.8,`commission`=3.54,`commission_rate`='30.00 %',`terminal_type`='无线',`create_time`=1560216378,`adzone_id`='106395750448',`adzone_name`='渠道+会员-推广位',`relation_id`='',`special_id`='',`earning_time`=1561087530  WHERE  `id` = 23 [ RunTime:0.047000s ]
+---------------------------------------------------------------
+[ 2019-06-21T11:30:00+08:00 ] 127.0.0.1 POST /jmapp/web/index.php/api/tkorder/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.077000s ] mysql:host=47.110.83.209;port=3306;dbname=juanmiDB;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `juanmi_order` [ RunTime:0.047000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `juanmi_order` WHERE  `goods_order` = '481205536158927028' LIMIT 1 [ RunTime:0.046000s ]
+[ sql ] [ SQL ] UPDATE `juanmi_order`  SET `type`=0,`goods_order`='481205536158927028',`goods_number`=1,`order_status`=3,`title`='起泡酒白葡萄酒甜型汽泡酒甜红酒少女气泡酒非香槟适合女生喝的酒',`goods_id`='555686276952',`price`=160,`shop_type`='天猫',`pay_price`=19,`settlement_price`=19,`commission`=5.7,`commission_rate`='30.00 %',`terminal_type`='无线',`create_time`=1560216117,`adzone_id`='106395750448',`adzone_name`='渠道+会员-推广位',`relation_id`='',`special_id`='',`earning_time`=1561087673  WHERE  `id` = 25 [ RunTime:0.046000s ]
+---------------------------------------------------------------
+[ 2019-06-21T11:36:03+08:00 ] 127.0.0.1 POST /jmapp/web/index.php/api/tkorder/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.069000s ] mysql:host=47.110.83.209;port=3306;dbname=juanmiDB;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `juanmi_order` [ RunTime:0.047000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `juanmi_order` WHERE  `goods_order` = '306831308152979400' LIMIT 1 [ RunTime:0.070000s ]
+[ sql ] [ SQL ] INSERT INTO `juanmi_order` (`type` , `goods_order` , `goods_number` , `order_status` , `title` , `goods_id` , `price` , `shop_type` , `pay_price` , `settlement_price` , `commission` , `commission_rate` , `terminal_type` , `create_time` , `adzone_id` , `adzone_name` , `relation_id` , `special_id` , `earning_time`) VALUES (0 , '306831308152979400' , 1 , 12 , '32包抽纸整箱实惠装家用婴儿家庭装卫生纸面巾纸餐巾纸纸抽纸巾' , '591385496091' , 88 , '天猫' , 24.99 , 0 , 2 , '8.00 %' , '无线' , 1561088004 , '106395750448' , '渠道+会员-推广位' , '' , '' , 0) [ RunTime:0.047000s ]
+---------------------------------------------------------------
+[ 2019-06-21T15:01:17+08:00 ] 127.0.0.1 POST /jmapp/web/index.php/api/tkorder/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.089000s ] mysql:host=47.110.83.209;port=3306;dbname=juanmiDB;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `juanmi_order` [ RunTime:0.047000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `juanmi_order` WHERE  `goods_order` = '305383853037644407' LIMIT 1 [ RunTime:0.047000s ]
+[ sql ] [ SQL ] UPDATE `juanmi_order`  SET `type`=0,`goods_order`='305383853037644407',`goods_number`=1,`order_status`=3,`title`='北极绒袜子男士短袜夏季薄款船袜短筒隐形浅口棉袜防臭吸汗夏天潮',`goods_id`='595276672394',`price`=12,`shop_type`='天猫',`pay_price`=3.8,`settlement_price`=3.8,`commission`=1.14,`commission_rate`='30.00 %',`terminal_type`='无线',`create_time`=1560206314,`adzone_id`='106395750448',`adzone_name`='渠道+会员-推广位',`relation_id`='',`special_id`='',`earning_time`=1561100345  WHERE  `id` = 27 [ RunTime:0.048000s ]
+---------------------------------------------------------------
+[ 2019-06-21T15:22:52+08:00 ] 127.0.0.1 POST /jmapp/web/index.php/api/tkorder/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.069500s ] mysql:host=47.110.83.209;port=3306;dbname=juanmiDB;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `juanmi_order` [ RunTime:0.047000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `juanmi_order` WHERE  `goods_order` = '482137475747763363' LIMIT 1 [ RunTime:0.047000s ]
+[ sql ] [ SQL ] UPDATE `juanmi_order`  SET `type`=0,`goods_order`='482137475747763363',`goods_number`=1,`order_status`=3,`title`='冰凉贴降温神器制冷避暑必备夏天学生可爱军训散热贴手机退热清凉',`goods_id`='565290850993',`price`=37,`shop_type`='淘宝',`pay_price`=14.5,`settlement_price`=14.5,`commission`=7.25,`commission_rate`='50.00 %',`terminal_type`='无线',`create_time`=1560216149,`adzone_id`='106395750448',`adzone_name`='渠道+会员-推广位',`relation_id`='',`special_id`='',`earning_time`=1561101584  WHERE  `id` = 24 [ RunTime:0.047000s ]
+---------------------------------------------------------------
+[ 2019-06-21T15:58:57+08:00 ] 127.0.0.1 POST /jmapp/web/index.php/api/tkorder/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.071000s ] mysql:host=47.110.83.209;port=3306;dbname=juanmiDB;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `juanmi_order` [ RunTime:0.047000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `juanmi_order` WHERE  `goods_order` = '482090274466583515' LIMIT 1 [ RunTime:0.046000s ]
+[ sql ] [ SQL ] UPDATE `juanmi_order`  SET `type`=0,`goods_order`='482090274466583515',`goods_number`=1,`order_status`=3,`title`='网红同款纳米双面胶米乐奇万次纳米胶带无痕吸附魔力胶贴强力超薄透明不留痕防水耐高温玻璃墙面贴高粘度固定',`goods_id`='592225249957',`price`=6,`shop_type`='天猫',`pay_price`=3.8,`settlement_price`=3.8,`commission`=2.66,`commission_rate`='70.00 %',`terminal_type`='无线',`create_time`=1560225094,`adzone_id`='106395750448',`adzone_name`='渠道+会员-推广位',`relation_id`='',`special_id`='',`earning_time`=1561103804  WHERE  `id` = 22 [ RunTime:0.046000s ]
+---------------------------------------------------------------
+[ 2019-06-21T17:20:05+08:00 ] 127.0.0.1 POST /jmapp/web/index.php/api/tkorder/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.071000s ] mysql:host=47.110.83.209;port=3306;dbname=juanmiDB;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `juanmi_order` [ RunTime:0.046000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `juanmi_order` WHERE  `goods_order` = '499032385121556074' LIMIT 1 [ RunTime:0.047000s ]
+[ sql ] [ SQL ] INSERT INTO `juanmi_order` (`type` , `goods_order` , `goods_number` , `order_status` , `title` , `goods_id` , `price` , `shop_type` , `pay_price` , `settlement_price` , `commission` , `commission_rate` , `terminal_type` , `create_time` , `adzone_id` , `adzone_name` , `relation_id` , `special_id` , `earning_time`) VALUES (0 , '499032385121556074' , 1 , 12 , '雨伞男女全自动折叠晴雨两用防晒防紫外线大号黑胶遮阳太阳伞定制' , '564765485820' , 98 , '天猫' , 9.9 , 0 , 0.2 , '2.00 %' , '无线' , 1561108672 , '106395750448' , '渠道+会员-推广位' , '' , '' , 0) [ RunTime:0.049000s ]
+---------------------------------------------------------------
+[ 2019-06-21T19:18:47+08:00 ] 127.0.0.1 POST /jmapp/web/index.php/api/tkorder/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.072000s ] mysql:host=47.110.83.209;port=3306;dbname=juanmiDB;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `juanmi_order` [ RunTime:0.045000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `juanmi_order` WHERE  `goods_order` = '492770147352808761' LIMIT 1 [ RunTime:0.047000s ]
+[ sql ] [ SQL ] UPDATE `juanmi_order`  SET `type`=0,`goods_order`='492770147352808761',`goods_number`=1,`order_status`=3,`title`='【狂欢价】儿童网鞋男童透气网面2019童鞋女童鞋中大童鞋儿童运动鞋小白鞋夏',`goods_id`='528938870340',`price`=159,`shop_type`='聚划算',`pay_price`=16.1,`settlement_price`=16.1,`commission`=4.83,`commission_rate`='30.00 %',`terminal_type`='无线',`create_time`=1560772182,`adzone_id`='106395750448',`adzone_name`='渠道+会员-推广位',`relation_id`='',`special_id`='',`earning_time`=1561115781  WHERE  `id` = 67 [ RunTime:0.046000s ]

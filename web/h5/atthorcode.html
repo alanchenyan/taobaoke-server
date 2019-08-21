@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+      <title>授权页面</title>
+ 
+      <style>
+          body{
+
+          }
+      </style>
+  </head>
+  <body>
+<p id="codetxt"> </p>
+  </body>
+ 
+  <script type="text/javascript">
+  function GetParam(url, id) {
+              url = url+ "";
+              regstr = "/(\\?|\\&)" + id + "=([^\\&]+)/";
+              reg = eval(regstr);//eval可以将 regstr字符串转换为 正则表达式
+              result = url.match(reg);//匹配的结果是：result[0]=?sid=22 result[1]=sid result[2]=22。所以下面我们返回result[2]
+
+              if (result && result[2]) {
+                  return result[2];
+              }
+          }
+
+window.onload=function()//用window的onload事件，窗体加载完毕的时候
+{
+   var code_value = GetParam(window.location.href,'code');
+   document.getElementById("codetxt").innerHTML=code_value;
+}
+
+ 
+  </script>
+  </html>

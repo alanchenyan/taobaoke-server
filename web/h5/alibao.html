@@ -1,0 +1,291 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0067)http://www.quanmama.com/t/Alipay/AlipayCopyShare.aspx?key=526210283 -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+    <meta content="telephone=no" name="format-detection">
+    <title>
+        支付宝红包
+    </title>
+
+    <!-- 移动端rem转换PX代码 -->
+    <script>
+        ! function (e, t) {
+            function n() {
+                t.body ? t.body.style.fontSize = 12 * o + "px" : t.addEventListener("DOMContentLoaded", n)
+            }
+    
+            function d() {
+                var e = i.clientWidth / 10;
+                i.style.fontSize = e + "px"
+            }
+            var i = t.documentElement,
+                o = e.devicePixelRatio || 1;
+            if (n(), d(), e.addEventListener("resize", d), e.addEventListener("pageshow", function (e) {
+                    e.persisted && d()
+                }), o >= 2) {
+                var a = t.createElement("body"),
+                    s = t.createElement("div");
+                s.style.border = ".013333rem solid transparent", a.appendChild(s), i.appendChild(a), 1 === s.offsetHeight &&
+                    i.classList.add("hairlines"), i.removeChild(a)
+            }
+        }(window, document);
+    </script>
+    <link rel="stylesheet" href="./css/mintui.min.css">
+    <style type="text/css">
+        [v-cloak] {
+            display: none;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        html,
+        body {
+            position: relative;
+            height: 100%;
+            width: 100%;
+        }
+
+        .copy-content {
+            color: #ffe789;
+        }
+
+        .background-img {
+            width: 100%;
+        }
+
+        .copy-content {
+            color: #ffe789;
+            width: 100%;
+            height: 1.2rem;
+            line-height: 1rem;
+            position: absolute;
+            top: 9.92rem;
+            text-align: center;
+            font-size: .8rem;
+            z-index: 999;
+        }
+
+        .copy-btn {
+            cursor: pointer;
+            margin-left: -2.94rem;
+            width: 5.88rem;
+            height: 1.45rem;
+            position: absolute;
+            top: 11.8rem;
+            text-align: center;
+            left: 50%;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            background: url(./image/anniu.png) no-repeat center 100%/100%;
+            animation-name: btn-bg-ripple;
+            animation-duration: 1s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+        }
+
+        .copy-btn.end {
+
+            animation-name: none;
+            filter: grayscale(100%);
+        }
+
+        @-webkit-keyframes btn-bg-ripple {
+            0% {
+                -webkit-transform: scale(1.05);
+                transform: scale(1.05)
+            }
+
+            60% {
+                -webkit-transform: scale(.95);
+                transform: scale(.95)
+            }
+
+            70% {
+                -webkit-transform: scale(1.03);
+                transform: scale(1.03)
+            }
+
+            90% {
+                -webkit-transform: scale(.98);
+                transform: scale(.98)
+            }
+
+            to {
+                -webkit-transform: scale(1.05);
+                transform: scale(1.05)
+            }
+        }
+
+        @keyframes btn-bg-ripple {
+            0% {
+                -webkit-transform: scale(1.05);
+                transform: scale(1.05)
+            }
+
+            60% {
+                -webkit-transform: scale(.95);
+                transform: scale(.95)
+            }
+
+            70% {
+                -webkit-transform: scale(1.03);
+                transform: scale(1.03)
+            }
+
+            90% {
+                -webkit-transform: scale(.98);
+                transform: scale(.98)
+            }
+
+            to {
+                -webkit-transform: scale(1.05);
+                transform: scale(1.05)
+            }
+        }
+
+        [v-cloak] {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="content">
+        <img src="./image/piece1.jpg" class="background-img">
+        <div style="position: relative;"> <img src="./image/piece2.png" class="background-img">
+            <p style="    position: absolute;
+        font-size: 0.46rem;
+        padding-left:1.5467rem;
+        top: 5.0133rem;
+        color: #FFCD94;
+        z-index: 1;">点击：复制领红包进入支付宝搜索;</p>
+            <p style="    position: absolute;
+        z-index: 1;
+        left: 3.58rem;
+        bottom: .7rem;
+        font-size: 0.29rem"
+                v-cloak>{{copyValue}}</p>
+
+
+                <p style="    position: absolute;
+                z-index: 1;
+                left: 2.58rem;
+                bottom: 3.3rem;
+                font-size: 0.29rem;"
+                        v-cloak>{{copyValue}}</p>
+        </div>
+
+        <div style="position: relative;"> <img src="./image/piece3.png" class="background-img">
+
+
+            <p style="    position: absolute;
+            font-size: 0.46rem;
+            padding-left:1.5467rem;
+            top: .75rem;
+            color: #FFCD94;
+            z-index: 1;"
+                v-cloak> 点击：搜索“{{copyValue}}”，天天领红包;</p>
+        </div>
+
+
+        <div class="copy-content" v-cloak>{{copyValue}}</div>
+        <div class="copy-btn" onclick="" id="js_copy_btn" :data-clipboard-text="copyValue" data-clipboard-action="copy"></div>
+    </div>
+    <script type="text/javascript" src="./js/vue.min.js"></script>
+    <script src="./js/clipboard.min.js"></script>
+    <script src="./js/mintui.min.js"></script>
+    <script src="./js/comm.js"></script>
+    <script type="text/javascript">
+        window.onload = function () {
+
+        }
+
+        var vue = new Vue({
+            el: "#content",
+            data: {
+                copyValue: ''
+            },
+            created: function () {
+
+                this.copyValue = 649519132;
+
+
+            },
+            mounted: function () {
+                var self = this;
+                /*  var btn = document.getElementById('js_copy_btn'); */
+
+                var clipboard = new ClipboardJS('#js_copy_btn');
+                /*    btn.click(function(){
+                       alert(123)
+                   }) */
+
+                clipboard.on('success', function (e) {
+                    self.$toast("复制成功,去支付宝搜索")
+                  /*   document.getElementById('js_copy_btn').className += ' end'; */
+
+                 /*    clipboard.destroy(); */
+                    if (isIos()) {
+                        jump("awakeApp", {
+                            url: "alipay://"
+                        })
+                    } else if (isAndroid()) {
+                        jump("awakeApp", {
+                            url: "com.eg.android.AlipayGphone"
+                        })
+                    }
+
+                });
+
+                clipboard.on('error', function (e) {
+                    self.$toast("复制失败,请手动输入")
+                    document.getElementById('js_copy_btn').className += ' end';
+                 /*    clipboard.destroy(); */
+                });
+            },
+            methods: {
+
+                getQueryString: function (name) {
+                    var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+                    var r = window.location.search.substr(1).match(reg);
+                    if (r != null) return unescape(r[2]);
+                    return null;
+                },
+                copyThenGotoTaobao: function () {
+
+
+
+                    /* var self = this;
+                    if (self.copyValue == '' || self.copyValue == null) {
+                        return;
+                    }
+                    JSBridge.call('bridge', 'copyToClipBoard', {
+                        'clipBoard': self.copyValue,
+                        'tipMsg': '复制成功'
+                    }, function (res) {
+                        if (res.code == 0) {
+                            setTimeout(function () {
+                                JSBridge.call('bridge', 'openThirdAPP', {
+                                    'packageName': 'com.eg.android.AlipayGphone',
+                                    'iosscheme': 'alipay://'
+                                }, function (res) {});
+                            }, 1000);
+                        }
+                    }); */
+                }
+            }
+        })
+    </script>
+
+
+</body>
+
+</html>

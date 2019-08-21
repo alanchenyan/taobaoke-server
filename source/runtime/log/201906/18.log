@@ -1,0 +1,46 @@
+---------------------------------------------------------------
+[ 2019-06-18T12:12:46+08:00 ] 127.0.0.1 POST /jmapp/web/index.php/api/tkorder/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.067000s ] mysql:host=47.110.83.209;port=3306;dbname=juanmiDB;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `juanmi_user` [ RunTime:0.043000s ]
+[ sql ] [ SQL ] SELECT `userid` FROM `juanmi_user` WHERE  `relationid` = '543608511' LIMIT 1 [ RunTime:0.041000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `juanmi_order` [ RunTime:0.043000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `juanmi_order` WHERE  `goods_order` = '416418656055394250' LIMIT 1 [ RunTime:0.042000s ]
+[ sql ] [ SQL ] UPDATE `juanmi_order`  SET `type`=0,`goods_order`='416418656055394250',`goods_number`=2,`order_status`=13,`title`='嘉年鹏景东北大米5kg手提编织袋2018年新米大米鲜稻 第二件半价',`goods_id`='579551569164',`price`=70,`shop_type`='天猫',`pay_price`=0,`settlement_price`=0,`commission`=0,`commission_rate`='18.00 %',`terminal_type`='无线',`create_time`=1555770184,`adzone_id`='106395750448',`adzone_name`='渠道&会员',`relation_id`='543608511',`special_id`='543737840',`earning_time`=0  WHERE  `id` = 49 [ RunTime:0.042000s ]
+---------------------------------------------------------------
+[ 2019-06-18T12:23:19+08:00 ] 127.0.0.1 POST /jmapp/web/index.php/api/tkorder/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.064000s ] mysql:host=47.110.83.209;port=3306;dbname=juanmiDB;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `juanmi_order` [ RunTime:0.042000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `juanmi_order` WHERE  `goods_order` = '492770147352808761' LIMIT 1 [ RunTime:0.041000s ]
+[ sql ] [ SQL ] INSERT INTO `juanmi_order` (`type` , `goods_order` , `goods_number` , `order_status` , `title` , `goods_id` , `price` , `shop_type` , `pay_price` , `settlement_price` , `commission` , `commission_rate` , `terminal_type` , `create_time` , `adzone_id` , `adzone_name` , `relation_id` , `special_id` , `earning_time`) VALUES (0 , '492770147352808761' , 1 , 12 , '【狂欢价】儿童网鞋男童透气网面2019童鞋女童鞋中大童鞋儿童运动鞋小白鞋夏' , '528938870340' , 159 , '聚划算' , 16.1 , 0 , 4.83 , '30.00 %' , '无线' , 1560772182 , '106395750448' , '渠道+会员-推广位' , '' , '' , 0) [ RunTime:0.042000s ]
+---------------------------------------------------------------
+[ 2019-06-18T15:07:03+08:00 ] 127.0.0.1 POST /jmapp/web/index.php/api/tkorder/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.068000s ] mysql:host=47.110.83.209;port=3306;dbname=juanmiDB;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `juanmi_user` [ RunTime:0.043000s ]
+[ sql ] [ SQL ] SELECT `userid` FROM `juanmi_user` WHERE  `relationid` = '2155750991' LIMIT 1 [ RunTime:0.043000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `juanmi_order` [ RunTime:0.043000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `juanmi_order` WHERE  `goods_order` = '494533827514261370' LIMIT 1 [ RunTime:0.042000s ]
+[ sql ] [ SQL ] INSERT INTO `juanmi_order` (`type` , `goods_order` , `goods_number` , `order_status` , `title` , `goods_id` , `price` , `shop_type` , `pay_price` , `settlement_price` , `commission` , `commission_rate` , `terminal_type` , `create_time` , `adzone_id` , `adzone_name` , `relation_id` , `special_id` , `earning_time`) VALUES (0 , '494533827514261370' , 1 , 12 , '男鞋夏季透气薄款椰子350老爹鞋韩版2019新款百搭潮流飞织网面鞋' , '594696232704' , 139.44 , '淘宝' , 134.44 , 0 , 2.69 , '2.00 %' , '无线' , 1560841527 , '106395750448' , '渠道&会员' , '2155750991' , '' , 0) [ RunTime:0.044000s ]
+[ sql ] [ SQL ] SELECT * FROM `juanmi_user` WHERE  `relationid` = '2155750991' LIMIT 1 [ RunTime:0.043000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `juanmi_orderfanli` [ RunTime:0.043000s ]
+[ sql ] [ SQL ] INSERT INTO `juanmi_orderfanli` (`orderid` , `orderuserid` , `fllevel` , `price` , `itemnum` , `commission` , `commissionrate` , `createtime` , `userid` , `ordertype`) VALUES ('494533827514261370' , 10103 , 0 , 134.44 , 1 , 1.35 , 0.5 , '2019-06-18 03:07:03' , 10103 , 0) [ RunTime:0.048000s ]
+[ sql ] [ SQL ] SELECT * FROM `juanmi_user` WHERE  `agentid` = 10103  AND `ustate` = 1 LIMIT 1 [ RunTime:0.043000s ]
+---------------------------------------------------------------
+[ 2019-06-18T16:00:58+08:00 ] 127.0.0.1 GET /jmapp/web/index.php?s=/store/order/alllist
+[ sql ] [ DB ] CONNECT:[ UseTime:0.064000s ] mysql:host=47.110.83.209;port=3306;dbname=juanmiDB;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `juanmi_order` [ RunTime:0.042000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `juanmi_order` LIMIT 1 [ RunTime:0.042000s ]
+[ sql ] [ SQL ] SELECT * FROM `juanmi_order` ORDER BY `create_time` DESC LIMIT 0,20 [ RunTime:0.045000s ]
+---------------------------------------------------------------
+[ 2019-06-18T16:01:11+08:00 ] 127.0.0.1 GET /jmapp/web/index.php?s=/api/jdc/getcate
+[ error ] controller not exists:app\api\controller\Jdc
+[ error ] #0 D:\XMAPP\htdocs\jmapp\source\thinkphp\library\think\App.php(457): think\App::module(Array, Array, NULL)
+#1 D:\XMAPP\htdocs\jmapp\source\thinkphp\library\think\App.php(139): think\App::exec(Array, Array)
+#2 D:\XMAPP\htdocs\jmapp\source\thinkphp\start.php(19): think\App::run()
+#3 D:\XMAPP\htdocs\jmapp\web\index.php(12): require('D:\\XMAPP\\htdocs...')
+#4 {main}
+---------------------------------------------------------------
+[ 2019-06-18T16:07:03+08:00 ] 127.0.0.1 GET /jmapp/web/index.php?s=/api/jdc/getcate
+[ error ] [4]语法错误: unexpected ';'
+[ error ] syntax error, unexpected ';'
+[ error ] #0 [internal function]: think\Error::appShutdown()
+#1 {main}

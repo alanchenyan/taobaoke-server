@@ -1,0 +1,9 @@
+{
+	"php_ext":"pathinfo",
+	"chmod":[],
+	"success_url":"/web/index.php",				
+	"php_versions":"53,54,55,56,70,71,72,73",
+	"run_path":"/",
+	"remove_file":["/index.html","/404.html"],
+	"enable_functions":[]
+}
