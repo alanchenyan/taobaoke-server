@@ -266,16 +266,16 @@ return [
 
 
     //淘宝客联盟APP秘钥
-    'LM_APPSECRET'             =>'XXXXXXXXXXXXXX',   
-    'LM_APPKEY'                =>'25592417',     
+    'LM_APPSECRET'             =>'0b46be258f57276a8fbebc79324796b8',   
+    'LM_APPKEY'                =>'27748514',     
 
     //淘宝联盟网站秘钥
     'WEB_APPSECRET'             =>'XXXXXXXXXXXX', 
     'WEB_APPKEY'                 =>'25375286',
 
     //百川秘钥
-    'BC_APPSECRET'             =>'XXXXXXXXXXX', 
-    'BC_APPKEY'                 =>'25339544',    
+    'BC_APPSECRET'             =>'0ef71c19efe6bfd29743f9a2863ca58d', 
+    'BC_APPKEY'                 =>'27794009',    
 
     //邀请码 会员 和渠道
     'SID_CODE'                  =>'XXXX',   //会员
